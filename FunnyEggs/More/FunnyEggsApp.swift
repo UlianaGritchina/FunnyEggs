@@ -11,7 +11,7 @@ import SwiftUI
 struct FunnyEggsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

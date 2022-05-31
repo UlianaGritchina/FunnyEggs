@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		0E65F3C028424FAD00B69214 /* FunnyEggsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E65F3BF28424FAD00B69214 /* FunnyEggsApp.swift */; };
-		0E65F3C228424FAD00B69214 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E65F3C128424FAD00B69214 /* ContentView.swift */; };
+		0E65F3C228424FAD00B69214 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E65F3C128424FAD00B69214 /* MainView.swift */; };
 		0E65F3C428424FAF00B69214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E65F3C328424FAF00B69214 /* Assets.xcassets */; };
 		0E65F3C728424FAF00B69214 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E65F3C628424FAF00B69214 /* Preview Assets.xcassets */; };
+		0E7338E32844E3830096BE72 /* EggsRain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7338E22844E3830096BE72 /* EggsRain.swift */; };
+		0E7338E52844E3E30096BE72 /* EggsCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7338E42844E3E30096BE72 /* EggsCounterView.swift */; };
+		0E7338E72844E4120096BE72 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7338E62844E4120096BE72 /* SceneView.swift */; };
+		0E7338E92844E4D00096BE72 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7338E82844E4D00096BE72 /* MainViewViewModel.swift */; };
+		0E7338EF2844E9410096BE72 /* BigEggs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7338EE2844E9410096BE72 /* BigEggs.swift */; };
+		0E7338F22844EAA10096BE72 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7338F12844EAA10096BE72 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E65F3BC28424FAD00B69214 /* FunnyEggs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnyEggs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E65F3BC28424FAD00B69214 /* Веселые Яайки.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Веселые Яайки.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E65F3BF28424FAD00B69214 /* FunnyEggsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyEggsApp.swift; sourceTree = "<group>"; };
-		0E65F3C128424FAD00B69214 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E65F3C128424FAD00B69214 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0E65F3C328424FAF00B69214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E65F3C628424FAF00B69214 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E7338E22844E3830096BE72 /* EggsRain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggsRain.swift; sourceTree = "<group>"; };
+		0E7338E42844E3E30096BE72 /* EggsCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggsCounterView.swift; sourceTree = "<group>"; };
+		0E7338E62844E4120096BE72 /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		0E7338E82844E4D00096BE72 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		0E7338EE2844E9410096BE72 /* BigEggs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigEggs.swift; sourceTree = "<group>"; };
+		0E7338F12844EAA10096BE72 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +55,7 @@
 		0E65F3BD28424FAD00B69214 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E65F3BC28424FAD00B69214 /* FunnyEggs.app */,
+				0E65F3BC28424FAD00B69214 /* Веселые Яайки.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +63,10 @@
 		0E65F3BE28424FAD00B69214 /* FunnyEggs */ = {
 			isa = PBXGroup;
 			children = (
-				0E65F3BF28424FAD00B69214 /* FunnyEggsApp.swift */,
-				0E65F3C128424FAD00B69214 /* ContentView.swift */,
-				0E65F3C328424FAF00B69214 /* Assets.xcassets */,
-				0E65F3C528424FAF00B69214 /* Preview Content */,
+				0E7338ED2844E5990096BE72 /* More */,
+				0E7338EA2844E51C0096BE72 /* Views */,
+				0E7338EC2844E56E0096BE72 /* Components */,
+				0E7338F02844E9470096BE72 /* Scenes */,
 			);
 			path = FunnyEggs;
 			sourceTree = "<group>";
@@ -65,6 +77,60 @@
 				0E65F3C628424FAF00B69214 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E7338EA2844E51C0096BE72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E7338EB2844E5270096BE72 /* Main */,
+				0E7338F32844EF7D0096BE72 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E7338EB2844E5270096BE72 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0E7338E82844E4D00096BE72 /* MainViewViewModel.swift */,
+				0E65F3C128424FAD00B69214 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0E7338EC2844E56E0096BE72 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0E7338E42844E3E30096BE72 /* EggsCounterView.swift */,
+				0E7338E62844E4120096BE72 /* SceneView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0E7338ED2844E5990096BE72 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				0E65F3C528424FAF00B69214 /* Preview Content */,
+				0E65F3BF28424FAD00B69214 /* FunnyEggsApp.swift */,
+				0E65F3C328424FAF00B69214 /* Assets.xcassets */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		0E7338F02844E9470096BE72 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0E7338E22844E3830096BE72 /* EggsRain.swift */,
+				0E7338EE2844E9410096BE72 /* BigEggs.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0E7338F32844EF7D0096BE72 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0E7338F12844EAA10096BE72 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +150,7 @@
 			);
 			name = FunnyEggs;
 			productName = FunnyEggs;
-			productReference = 0E65F3BC28424FAD00B69214 /* FunnyEggs.app */;
+			productReference = 0E65F3BC28424FAD00B69214 /* Веселые Яайки.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E65F3C228424FAD00B69214 /* ContentView.swift in Sources */,
+				0E7338E32844E3830096BE72 /* EggsRain.swift in Sources */,
+				0E7338F22844EAA10096BE72 /* SettingsView.swift in Sources */,
+				0E7338E72844E4120096BE72 /* SceneView.swift in Sources */,
+				0E7338EF2844E9410096BE72 /* BigEggs.swift in Sources */,
+				0E7338E92844E4D00096BE72 /* MainViewViewModel.swift in Sources */,
+				0E7338E52844E3E30096BE72 /* EggsCounterView.swift in Sources */,
+				0E65F3C228424FAD00B69214 /* MainView.swift in Sources */,
 				0E65F3C028424FAD00B69214 /* FunnyEggsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +340,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FunnyEggs/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FunnyEggs/More/Preview Content\"";
 				DEVELOPMENT_TEAM = 86SKTK882J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -277,14 +349,14 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ugritchina-icloud.com.FunnyEggs";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Веселые Яайки";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,7 +370,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FunnyEggs/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FunnyEggs/More/Preview Content\"";
 				DEVELOPMENT_TEAM = 86SKTK882J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -307,14 +379,14 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ugritchina-icloud.com.FunnyEggs";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Веселые Яайки";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
